@@ -6,7 +6,7 @@ condition = true
 another_condition = false
 
 # if/else
-if condition && another_condition
+if condition || another_condition
   puts "Hello"
 
 # else
