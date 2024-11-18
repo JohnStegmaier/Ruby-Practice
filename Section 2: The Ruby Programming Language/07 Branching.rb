@@ -2,8 +2,10 @@
 # By: John Stegmaier
 # Date: November 18th 2024
 
+condition = false
+
 # if/else
-if !true
+if condition
   puts "Hello"
 
 # else
