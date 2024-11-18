@@ -3,7 +3,7 @@
 # Date: November 18th 2024
 
 condition = true
-another_condition = true
+another_condition = false
 
 # if/else
 if condition && another_condition
