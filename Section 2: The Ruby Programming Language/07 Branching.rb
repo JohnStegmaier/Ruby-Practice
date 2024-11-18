@@ -7,11 +7,11 @@ another_condition = false
 
 # if/else
 if condition || another_condition
-  puts "Hello"
+  puts "This evaluated to true"
 
 # else
 else
-  puts "Bye"
+  puts "this evaluated to false"
 end
 
 # if / else blocks are terminated with the end statement
