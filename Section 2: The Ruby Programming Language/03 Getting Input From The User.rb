@@ -8,4 +8,9 @@ puts "Thank you, you said your first name is #{first_name}."
 
 puts "Enter a number to multiply by 2"
 input = gets.chomp
+
+# this is going to take the string value and just print it twice (String * 2)
 puts input * 2
+
+# this converts the input strnig to an integer and then multiplies it by two (Int * 2)
+puts input.to_i * 2
