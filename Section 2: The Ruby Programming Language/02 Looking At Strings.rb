@@ -1,4 +1,4 @@
-# Manipulatnig Strings
+# Manipulating Strings
 # By: John Stegmaier
 # Date: November 17th 2024
 
