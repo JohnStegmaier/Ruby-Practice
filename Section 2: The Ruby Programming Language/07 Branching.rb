@@ -2,7 +2,7 @@
 # By: John Stegmaier
 # Date: November 18th 2024
 
-condition = false
+condition = true
 
 # if/else
 if condition
