@@ -20,5 +20,5 @@ puts "What is your last name?"
 last_name = gets.chomp
 puts "Your full name is #{first_name} #{last_name}"
 puts "Your full name reversed is #{last_name.reverse} #{first_name.reverse}"
-lengthOfName = first_name.length + last_name.length
-puts "Your name has #{lengthOfName} characters in it."
+length_of_name = first_name.length + last_name.length
+puts "Your name has #{length_of_name} characters in it."
