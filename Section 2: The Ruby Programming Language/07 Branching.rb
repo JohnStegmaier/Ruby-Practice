@@ -3,7 +3,7 @@
 # Date: November 18th 2024
 
 # if/else
-if true
+if !true
   puts "Hello"
 
 # else
