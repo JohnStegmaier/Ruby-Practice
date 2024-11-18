@@ -3,9 +3,10 @@
 # Date: November 18th 2024
 
 condition = true
+another_condition = true
 
 # if/else
-if condition
+if condition && another_condition
   puts "Hello"
 
 # else
