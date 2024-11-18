@@ -8,3 +8,7 @@ p address
 
 # Print the sixth element of the array
 p address[5]
+
+# Inverting the array using a language method
+reversed_address = address.reverse!
+p reversed_address
