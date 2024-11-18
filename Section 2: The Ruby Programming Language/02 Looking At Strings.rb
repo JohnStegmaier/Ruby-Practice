@@ -1,4 +1,4 @@
-# Say hello world in multiple ways
+# Manipulatnig Strings
 # By: John Stegmaier
 # Date: November 17th 2024
 
