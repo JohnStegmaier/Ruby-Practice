@@ -81,7 +81,7 @@ users = [
 
 login_attempts = 0
 
-while(login_attempts < 3) do
+while login_attempts < 3 do
 output_text_in_box(["Welcome to the authenticator", "This program will take input from the user and compare password.", "If password is correct, you will get back the user object."])
 print "Please enter a username:"
 username = gets.chomp
