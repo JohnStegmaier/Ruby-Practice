@@ -77,3 +77,37 @@ p %w(My name is John and Ruby is really fun so far)
 # variable_that_grabs_previous_expression = _
 # p variable_that_grabs_previous_expression
 
+################################################################# Iterators start below here
+128.times{print "═"}
+puts " ITERATOR EXAMPLES BELOW"
+
+sample_array = %w(My name is John and Ruby is really fun so far)
+
+# This will print the whole array each iteration
+for items in sample_array
+  print sample_array
+end
+puts "" # add newline
+
+# This will print each item in the array one at a time
+for items in sample_array
+  print items + " "
+end
+
+# However, the above ways of doing things is not really the ruby way of doing them...
+# The ruby preferred way of doing thigs is with a .each:
+sample_array.each do |item|
+  print item + " "
+end
+
+puts "" # add newline
+
+# in fact, it's preferred to do it all in one line:
+sample_array.each {|item| print item.capitalize + " "}
+
+puts "" # add newline
+
+# Select operator works on booleans
+final_example_array = (1..100).to_a.shuffle
+
+p final_example_array.select {|number| number.odd?}
