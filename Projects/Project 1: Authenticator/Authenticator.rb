@@ -88,9 +88,18 @@ username = gets.chomp
 print "\nPlease enter a password:"
 password = gets.chomp
 
-puts "Validation returns: #{authenticate(users, username, password)}"
-puts "Validation outcome: #{!authenticate(users, username, password).nil?}"
+if authenticate(users, username, password).empty?
+  puts "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  login_attempts += 1
+  puts "\e[#{31}m#{"VALIDATION FAILURE!!!!"}\e[0m"
+  puts "\e[#{31}m#{"You have #{3-login_attempts} attempts left."}\e[0m"
+  puts "\n\n"
+else
+  puts "Validation returns: #{authenticate(users, username, password)}"
+end
 
 # We will learn
 # Hash, Array, Branching, While loops and designing program execution flow
 end
+
+puts "\e[#{31}m#{"OUT OF LOGIN ATTEMPTS. TERMINATING APPLICATION"}\e[0m"
